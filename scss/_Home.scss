@@ -1,0 +1,30 @@
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+
+ 
+}
+.cover-img img{
+    margin-top:1.5rem;
+    position: relative;
+}
+main .cover-text{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0 ,0, 0, 0.6);
+    position: absolute;
+    top:35vh;
+    color:white;
+    width: 30vw;
+    height: 30vh;
+    padding: 2rem;
+    margin-left: 6rem;
+    border-radius: 2rem;
+}
+
+.btn {
+   margin-top: 2rem;
+}

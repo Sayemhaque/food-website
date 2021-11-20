@@ -1,0 +1,13 @@
+.chef-cards{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    gap: 2rem;
+}
+.chef .container{
+    margin-top: 20px;
+    height:fit-content;
+    background-color: var(--white);
+    padding-bottom:1rem;
+    border:2px solid var(--pink);
+}

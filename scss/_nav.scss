@@ -1,0 +1,40 @@
+nav{
+    width:100%;
+    background-color: var(--white);
+    padding: 0.4rem 0rem;
+    ul{
+        display: flex;
+    
+    }
+     a{
+        margin: 0 15px;
+        font-size: 1.1em;
+        color: var(--dark);
+        font-weight: 550;
+      }
+      a:hover{
+          color:var(--pink);
+      }
+      
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+
+}
+nav .logo{
+    font-style: italic;
+      font-size: 1.5em;
+      color: var(--pink);    
+}
+
+.cart-img{
+    display: block;
+}
+.cart-img img{
+    width: 2rem;
+    height: 2rem;
+  
+}

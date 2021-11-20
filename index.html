@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links scss -->
+    <link rel="stylesheet" href="./css/main.css">
+      <!-- links scss -->
+    <title>KingsFood</title>
+</head>
+<body>
+    <!-------------------------------------------NAVBAR STARTS --------------------------------------------------------->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h2>KingsFood</h2>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Dish</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="humburg">
+                <div class="line1"></div>
+                <div class="line1"></div>
+                <div class="line1"></div>
+            </div>
+            <label class="btn btn-pink">Oder Now</label>
+            <div class="cart-img">
+                <img src="Images/trolley.png" alt="">
+            </div>
+        </div>
+    </nav>
+     <!---------------------------------------NAVBAR ENDS ------------------------------------------------------------->
+
+
+      <!-------------------------------------------HOME STARTS --------------------------------------------------------->
+          <main>
+              <div class="container">
+                  <div class="cover-img">
+                      <img src="./Images/coverpic.jpg" alt="">
+                      <div class="cover-text">
+                        <h1>Food For</h1>
+                        <h1>Your soul</h1>
+                     <label class="btn btn-pink">
+                       View our meuu</label>
+                    </div>
+                   
+                  </div>
+                
+              </div>
+            </main>
+      <!-------------------------------------------HOME ENDS --------------------------------------------------------->
+
+
+
+      <!-------------------------------------------TOP RATED FOOD SECTION STARTS --------------------------------------------------------->
+      <section class="top-rated-food">
+          <div class="container">
+              <div class="main-text">
+                  <h1>Top rated foods</h1>
+              </div>
+               <div class="cards">
+                   <div class="card1">
+                       <div class="card-img">
+                        <img src="/Images/top rated dish.jpg" alt="">
+                       </div>
+                      <div class="card-text">
+                          <h1>Vagetable Salad</h1>
+                      </div>
+                      <p class="text-center text-muted"> 
+                        Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Exercitationem, tempora.
+                    </p>
+                   </div>
+                   <div class="card2">
+                    <div class="card-img">
+                        <img src="/Images/top rated dish2.jpg" alt="">
+                       </div>
+                      <div class="card-text">
+                          <h1>Chiken Ball</h1>
+                      </div>
+                      <p class="text-center text-muted"> 
+                          Lorem ipsum dolor sit amet consectetur 
+                          adipisicing elit. Exercitationem, tempora.
+                      </p>
+                   </div>
+                   <div class="card3">
+                         <div class="card-img">
+                    <img src="/Images/top rated dish3.jpg" alt="">
+                   </div>
+                  <div class="card-text">
+                      <h1>Healthy Salad</h1>
+                  </div>
+                  <p class="text-center text-muted"> 
+                    Lorem ipsum dolor sit amet consectetur
+                     adipisicing elit. Exercitationem, tempora.
+                </p>
+                </div>
+               </div>
+          </div>
+      </section>
+      <!------------------------------------------- TOP RATED FOOD ENDS--------------------------------------------------------->
+
+
+
+
+
+      <!------------------------------------------- SERVICES STARTS--------------------------------------------------------->
+      <section class="services">
+        <div class="container">
+            <div class="s-main-text">
+                <h1>Our services</h1>
+            </div>
+             <div class="services">
+                 <div class="s-card1">
+                     <div class="s-card-img">
+                      <img src="/Images/breakfast.png" alt="">
+                     </div>
+                    <div class="card-text">
+                        <h1>Rich Breakfast</h1>
+                    </div>
+                    <p class="text-center text-muted"> 
+                      Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit. Exercitationem, tempora.
+                  </p>
+                 </div>
+                 <div class="s-card2">
+                  <div class="s-card-img">
+                      <img src="/Images/lunch.png" alt="">
+                     </div>
+                    <div class="card-text">
+                        <h1>Awasome Lunch</h1>
+                    </div>
+                    <p class="text-center text-muted"> 
+                        Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. Exercitationem, tempora.
+                    </p>
+                 </div>
+                 <div class="s-card3">
+                       <div class="s-card-img">
+                  <img src="/Images/dinner.png" alt="">
+                 </div>
+                <div class="card-text">
+                    <h1>Supper Dinner</h1>
+                </div>
+                <p class="text-center text-muted"> 
+                  Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Exercitationem, tempora.
+              </p>
+              </div>
+             </div>
+        </div>
+    </section>
+      <!------------------------------------------- SERVICES ENDS--------------------------------------------------------->
+
+
+
+      <!------------------------------------------- FEATURED FOODS STARTS--------------------------------------------------------->
+      <section class="featured-food">
+          <div class="container">
+            <div class="f-main-text">
+                <h1>featured-foods</h1>
+            </div>
+              <div class="slides">
+                  <div class="slide">
+                    <div class="caption-text">
+                        <h1>Pizza</h1>
+                      </div>
+                      <img src="/Images/pizza.jpg" alt="">
+                    
+                    
+                  </div>
+                  <div class="slide">
+                    <img src="/Images/feature food2.jpg" alt="">
+                  
+                    <div class="caption-text">
+                      <h1>Faluda</h1>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="/Images/feature3.jpg" alt="">
+                  
+                    <div class="caption-text">
+                      <h1>Burger</h1>
+                    </div>
+                </div>
+                <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+                <span class="arrow next" onclick="controller(+1)">&#10095;</span>
+              </div>
+          </div>
+          
+      </section>
+      <!------------------------------------------- FEATURED FOODS ENDS--------------------------------------------------------->
+      <!------------------------------------------- FEATURED FOODS ENDS--------------------------------------------------------->
+      <section class="chef">
+        <div class="container">
+            <div class="main-text">
+                <h1>Our Chefs</h1>
+            </div>
+             <div class="chef-cards">
+                 <div class="card1">
+                     <div class="card-img">
+                      <img src="/Images/chef1.jpg" alt="">
+                     </div>
+                    <div class="card-text">
+                        <h1>Vagetable Salad</h1>
+                    </div>
+                    <p class="text-center text-muted"> 
+                      Lorem ipsum dolor sit amet consectetur
+                       adipisicing elit. Exercitationem, tempora.
+                  </p>
+                 </div>
+                 <div class="card2">
+                  <div class="card-img">
+                      <img src="/Images/chef2.jpg" alt="">
+                     </div>
+                    <div class="card-text">
+                        <h1>Chiken Ball</h1>
+                    </div>
+                    <p class="text-center text-muted"> 
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Exercitationem, tempora.
+                    </p>
+                 </div>
+                 <div class="card3">
+                       <div class="card-img">
+                  <img src="/Images/chefs3.jpg" alt="">
+                 </div>
+                <div class="card-text">
+                    <h1>Healthy Salad</h1>
+                </div>
+                <p class="text-center text-muted"> 
+                  Lorem ipsum dolor sit amet consectetur
+                   adipisicing elit. Exercitationem, tempora.
+              </p>
+              </div>
+              <div class="card4">
+                <div class="card-img">
+           <img src="/Images/chef4.jpg" alt="">
+          </div>
+         <div class="card-text">
+             <h1>Healthy Salad</h1>
+         </div>
+         <p class="text-center text-muted"> 
+           Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Exercitationem, tempora.
+       </p>
+       </div>
+             </div>
+        </div>
+    </section>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.btn{
+    padding: 0.7rem 1rem;
+    margin: 0 1rem;
+    border-radius: 2rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-pink:hover{
+    background-color: rgb(211, 89, 140);
+    transition: all 500ms ease;
+}
+.btn-pink{
+    background-color: rgb(245, 81, 149);
+   
+}
+.text-muted{
+    color:var(--gray)
+}
+.text-center{
+    text-align: center;
+}
